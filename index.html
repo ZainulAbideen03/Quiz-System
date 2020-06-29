@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Quiz System</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "js.js"></script>
+
+</head>
+
+
+<body>
+<h1>Quiz</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Q1: Which of the following is not JavaScript Data Types?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Undefined"> Undefined<br>
+<input type = "radio" id = "mc" name = "question1" value = "Float">Float<br>
+<img src="right.png" alt="" width="20px" height="20px;" style="margin-left: 2%" id = "one">
+<img src="wrong.png" alt="" width="20px" height="20px;" id = "ones">
+
+<p class = "questions">Q2: Which company developed JavaScript?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Netscape">Netscape<br>
+<input type = "radio" id = "mc" name = "question2" value = "IBM">IBM<br>
+<img src="right.png" alt="" width="20px" height="20px;" style="margin-left: 2%" id = "two">
+<img src="wrong.png" alt="" width="20px" height="20px;" id = "twos">
+
+
+<p class = "questions">Q3: What is the original name of JavaScript?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "JavaScript">JavaScript<br>
+<input type = "radio" id = "mc" name = "question3" value = "Mocha">Mocha<br>
+<img src="right.png" alt="" width="20px" height="20px;" style="margin-left: 2%" id="three">
+<img src="wrong.png" alt="" width="20px" height="20px;" id = "threes">
+
+<p class = "questions">Q4: Which of them is not the looping structures in JavaScript?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "for">for<br>
+<input type = "radio" id = "mc" name = "question4" value = "while">while<br>
+<img src="right.png" alt="" width="20px" height="20px;" style="margin-left: 2%" id="four">
+<img src="wrong.png" alt="" width="20px" height="20px;" id = "fours">
+
+<input id = "button" type = "button" value = "Submit" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</body>
+</html>
